@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int sumUnderModulo(long long a,long long b)
+int sumUnderModulo(long long a, long long b)
 {
-    //(a+b)%m=(a%m+b%m)%m  -> Propriedade distributiva
+    //(a + b) % m = (a % m + b % m) % m  -> Propriedade distributiva
     int M=1000000007;
-    return (a%M+b%M)%M;
-
+    return (a % M + b % M) % M;
 }
 
 int main() {
