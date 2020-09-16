@@ -19,10 +19,7 @@ int main()
 	cin>>T;
 	while(T--){
 		int a,m;
-		
 		cin>>a>>m;
-		
-		
 		cout << modInverse(a, m)<<endl;
 	}
     return 0;
