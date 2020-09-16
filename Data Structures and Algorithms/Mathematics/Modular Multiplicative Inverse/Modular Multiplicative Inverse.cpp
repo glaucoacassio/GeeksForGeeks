@@ -10,8 +10,6 @@ int modInverse(int a, int m)
     return -1;
 }
 
-// { Driver Code Starts.
-
 int main()
 {
 	int T;
